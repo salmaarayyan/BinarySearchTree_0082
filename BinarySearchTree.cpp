@@ -18,7 +18,9 @@ public:
 
 class BinaryTree {
 public:
-        Node* ROOT;
+    Node* ROOT;
 
-        
+    BinaryTree() {
+        ROOT = NULL;  //initializing ROOT to NULL
+    }
 };
